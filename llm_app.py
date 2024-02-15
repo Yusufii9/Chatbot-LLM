@@ -16,7 +16,8 @@ from langchain.chains.question_answering import load_qa_chain
 
 st.title("Hi, I'm your ChatBot! Ask me anything about Paediatric Laparoscopic Surgery")
 
-openai.api_key = '' // Add your OpenAi Key
+#  Add your OpenAi Key
+openai.api_key = ''
 os.environ['OPENAI_API_KEY'] = openai.api_key
 tmp_directory = 'tmp'
 
